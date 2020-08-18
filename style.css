@@ -1,0 +1,50 @@
+body {
+
+}
+
+.globalbox {
+  max-width: 600px;
+  margin: auto;
+  display: block;
+  position: relative;
+  font-size: 112%
+}
+
+.globalbox::after {
+  content: "";
+  /*background: url('x.png');*/
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.paragraph {
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+
+.padded {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.head {
+  background-color: #fbccaa;
+}
+
+.foot {
+  font-size: 100%;
+  background-color: #dbd;
+  text-align: right;
+}
